@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578.03 315.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #3d59a3;
+      }
+
+      .cls-3 {
+        fill: #3f5caa;
+      }
+
+      .cls-4 {
+        fill: #3a559e;
+      }
+
+      .cls-5 {
+        fill: #dfb0cb;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+        font-family: EngraversMT, 'Engravers MT';
+        font-size: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polygon class="cls-4" points="10.39 315.69 95.99 213.95 159.25 274.29 298.19 140.12 445.8 315.73 10.39 315.69"/>
+    <polygon class="cls-3" points="97.17 315.73 161.73 195.74 296.95 265.22 448.91 169.45 504.73 57.82 577.91 219.27 578.03 315.73 97.17 315.73"/>
+    <polygon class="cls-2" points="298.24 82.3 295.4 91.04 286 91.04 293.38 96.58 290.63 105.46 298.24 99.95 305.78 105.46 302.89 96.61 310.52 91.15 301.11 91.08 298.24 82.3"/>
+    <polygon class="cls-5" points="161.51 137.98 158.68 146.72 149.28 146.72 156.66 152.25 153.91 161.13 161.51 155.63 169.05 161.13 166.16 152.29 173.79 146.82 164.39 146.75 161.51 137.98"/>
+    <polygon class="cls-5" points="95.98 156.14 93.14 164.88 83.74 164.88 91.12 170.41 88.37 179.29 95.98 173.79 103.52 179.29 100.63 170.45 108.26 164.98 98.85 164.91 95.98 156.14"/>
+    <polygon class="cls-2" points="504.69 0 501.85 8.74 492.45 8.74 499.83 14.28 497.08 23.15 504.69 17.65 512.23 23.15 509.34 14.31 516.96 8.84 507.56 8.77 504.69 0"/>
+    <line class="cls-1" x1="483.92" y1="64.33" x2="500.44" y2="58.32"/>
+    <text class="cls-6" transform="translate(428.53 69.89)"><tspan x="0" y="0">Peak Chocc</tspan></text>
+    <line class="cls-1" x1="277.87" y1="145.85" x2="294.39" y2="139.84"/>
+    <text class="cls-6" transform="translate(228.29 150.01)"><tspan x="0" y="0">Peak Ross</tspan></text>
+    <line class="cls-1" x1="164.78" y1="192.79" x2="181.3" y2="186.77"/>
+    <text class="cls-6" transform="translate(187.2 187.7)"><tspan x="0" y="0">Peak Order</tspan></text>
+    <line class="cls-1" x1="74.89" y1="220.68" x2="91.42" y2="214.67"/>
+    <text class="cls-6" transform="translate(5.12 224.84)"><tspan x="0" y="0">Peak Welcome</tspan></text>
+  </g>
+</svg>

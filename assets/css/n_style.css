@@ -1,0 +1,185 @@
+*{
+    background-color: #f2f2f2;
+    margin:0;
+    padding:0;
+    font-family: Engravers MT;
+    z-index: 2;
+}
+
+h1{
+    font-size: 5vh;
+    background-color: transparent;
+    color: #e7b6d5;
+}
+
+a{
+    background-color: transparent;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { 
+    text-decoration: none;
+ }
+
+a:active { text-decoration: none; }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+    margin-top: 3vh;
+    border-radius: 10vh;
+    background-color: #543c26;
+    color: #e7b6d5;
+}
+#flex-container-head{
+    display: flex;
+    justify-content: center;
+}
+
+#back_mountain{
+    height: auto;
+    width: 90vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 10vh;
+}
+
+#img{
+    height: 100%;
+    width: 100%;
+}
+
+#img div {
+    height: 100%;
+    width: 30px;
+    color: purple;
+    background-color: transparent;
+}
+
+#one{
+    position: absolute;
+    left: 31.4vw;
+}
+#two{
+    position: absolute;
+    left: 40.6vw;
+}
+#three{
+    position: absolute;
+    left: 59.9vw;
+}
+#four{
+    position: absolute;
+    left: 88.6vw;
+}
+
+/* Ross Page */
+
+.border{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    height: 20px;
+}
+
+.train{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 1700px) {
+
+    #top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 70vw;
+        margin-top: 3vh;
+        border-radius: 10vh;
+        background-color: #543c26;
+        color: #e7b6d5;
+    }
+
+}
+@media screen and (min-width: 2000px) {
+
+    #back_mountain{
+        height: auto;
+        max-height: 80vh;
+        width: 90vw;
+        position: absolute;
+        bottom: 0;
+        right: -12.9%;
+        z-index: 1;
+    }
+    #one{
+        position: absolute;
+        left: 35.65vw;
+    }
+    #two{
+        position: absolute;
+        left: 43.1vw;
+    }
+    #three{
+        position: absolute;
+        left: 58.7vw;
+    }
+    #four{
+        position: absolute;
+        left: 82.2vw;
+    }
+
+}
+@media screen and (min-width: 2300px) {
+
+    #back_mountain{
+        height: auto;
+        max-height: 80vh;
+        width: 90vw;
+        position: absolute;
+        bottom: 0;
+        right: -16.6%;
+        z-index: 1;
+    }
+    #one{
+        position: absolute;
+        left: 54.5vw;
+    }
+    #two{
+        position: absolute;
+        left: 61.1vw;
+    }
+    #three{
+        position: absolute;
+        left: 74.9vw;
+    }
+    #four{
+        position: absolute;
+        left: 95.8vw;
+    }
+
+}
+
+

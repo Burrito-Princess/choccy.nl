@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+}
+
+body{
+    height: 100%;
+}
+
+#current{
+    background-color: white;
+
+    width: 80%;
+}
+
+#flex-container-head{
+    background-color: #D2B48C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;    
+}
+
+#head{
+    display: flex;
+    color: #654321;
+    height: 50%;
+    font-size: 280%;
+}
+
+#flex-container-main{
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.side{
+    width: 100%;
+    height: 100%;
+    background-color: #D2B48C;
+    font-size: 175%;
+}
+
+#small-flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 35%;
+}
+
+#content{
+    height: 80vh;
+    width: 100%;
+}
+
+#front-content{
+    width: 100%;
+    height: 100%;
+}
+
+.flex{
+    width: 65%;
+}
+
+.item{
+    height: 15%;
+    background-color: #FFF8DC;
+    margin: 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #654321;
+}
+
+
+h1{
+    color: #AF5B1A;
+}
+
+h3{
+    color: #C25511;
+}
+
+.space{
+    width: 100px;
+    height: 100px;
+    background-color: #D2B48C;
+}
+
+.center-text{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Discord page */
+#discord-text{
+    font-size: 175%;
+}
+
+.bottom{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.link-button{
+    height: 100px;
+    background-color: 	#7289da;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 40%;
+    align-content: flex-end;
+
+}
+
+#break{
+    height: 260px;
+    width: 100%;
+}
+
+/* King ross Page */
+
+.content-text{
+    display: flex;
+    justify-content: center;
+
+}
+.content-text div h3{
+    padding-left: 50px;
+    padding-right:  50px;
+}
+
+
+.small-button{
+    text-align: center;
+    height: fit-content;
+    min-height: 50px;
+    width: 150px;
+    background-color: #DDA0DD;
+    border-radius: 5px;
+    color: #654321;
+    margin: 10px;
+    display: table-cell;
+    padding: 30px;
+    vertical-align: middle;
+    
+}
+.projects{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#small2-flex-container{
+     height: 100%;
+    width: 100%;
+}
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { 
+    text-decoration: none;
+ }
+
+a:active { text-decoration: none; }
+
+
+.item :link { text-decoration: none; }
+
+.item:visited { text-decoration: none; }
+
+.item:hover { 
+    text-decoration: none;
+    background-color: #EEE4C4;
+ }
+
+ .item:active { text-decoration: none; }
+
+
+.small-button:link { text-decoration: none; }
+
+.small-button:visited { text-decoration: none; }
+
+.small-button:hover { 
+    text-decoration: none;
+    background-color: #B478B2;
+ }
+
+ .small-button:active { text-decoration: none; }
+
+
+
+
+/* responsive!! */
+@media only screen and (max-width: 550px) {
+    #head{
+        font-size: 150%;
+        height: 40px;
+    }
+    #flex-container-head{
+        height: 70px;
+        width: 100%;
+    }
+    .space{
+        width: 10px;
+        height: 40px;
+    }
+
+    .side{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    #flex-container-main{
+        display: inline;
+        justify-content: space-evenly;
+    }
+
+    #small-flex-container{
+        width: 100%;
+        height: 20%;
+    }
+
+
+    #space{
+        height: 20px;
+        width: 100%;
+    }
+
+    #current{
+        width: 25%;
+    }
+
+    
+
+    .item{
+        font-size: 55%;
+        display: flex;
+        width: 25%;
+        height: 40%;
+        margin: 1.2%;
+        border-radius: 5px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+
+    #front-content{
+        height: 100vh;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .link-button{
+        height: 100px;
+        margin: 20px;
+        border-radius: 10px;
+
+        width: 80%;
+    }
+
+    #home-img{
+        height: 40px;
+        width: auto;
+        margin: 0;
+    }
+}
